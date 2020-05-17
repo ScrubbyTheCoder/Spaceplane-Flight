@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.hithisismygamelol.AExample"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Spaceplane Flight Simulator</name>
+
+  <description>
+     
+Controls:
+W/S/click ends of throttle- throttle up/down
+X- Set throttle to zero
+Z- Floor it! Set throttle to maximum
+A/D pitch up/down
+B- Deploy speed brakes / wheel brakes
+R/Onscreen button- Toggle RCS (maneuvering thrusters)
+T/Onscreen button- Toggle ACS (auto-stabilization) 
+Spacebar/Onscreen button- Toggle engines between airbreathing (jet engine) and closedcycle (rocket engine) mode.
+V - Toggle vertical thrust mode. This isn't remotely realistic or anything, but it's fun. Note that the vertical engines are rockets, not jets, so you must be in rocket mode to active them, they'll need both fuel and oxidizer, and they will use it very fast.
+2- Show/hide debugging variables.
+If you like, you can show and hide the control panel by clicking at the top of the screen. If hidden, it will reappear when moused over.
+
+It is recommended that you turn on ACS when the flight starts, or your plane's nose will tend to drop. If you want to achieve a very high angle of attack (such as during your rocket burn), you may want to turn on RCS for more control.
+
+The blue indicator on the gray navigation wheel shows you which direction your plane is pointing, relative to the green indicator, which shows the direction you're moving.
+
+If you get high enough and fast enough (the top ends of both the speed indicators and the altitude indicators, the VAC and ORB lights will illuminate, indicating that you are in space and orbiting the planet, respectively.
+
+Landing back on the runway and coming to a stop will resupply you with fuel and oxidizer. Didn't make it to orbit on the first try? You can always try again!
+
+
+Audio credits:
+
+"Autumn Day", "Winter Reflections"
+Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/
+
+Explosion sound effect found at http://soundbible.com/1807-Explosion-Ultra-Bass.html, also licensed for Attribution 3.0
+
+
+Other source info:
+
+All sprites were created by me from within the Scratch editor.
+
+This project carries heavy inspiration from the game Kerbal Space Program, but is not affiliated in any way with Kerbal Space Program, Squad, or any related franchises. Any resemblance borne by the art, gameplay style, or overall theme of this project to that of Kerbal Space Program is entirely unintentional but admittedly present.
+  </description>
+
+  <author href="rebrand.ly/tigerclothing" email="notshowingmyemail@gmail.com">
+      Xtreme_Space
+  </author>
+
+  <icon src='icon.png' />
+
+</widget>
